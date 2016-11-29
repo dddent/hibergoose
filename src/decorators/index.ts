@@ -1,6 +1,11 @@
 import 'reflect-metadata';
-export * from './Collection';
-export * from './Model';
-export * from './Type';
-export * from './Subschema';
-export * from './Default';
+export * from './Collection.decorator';
+export * from './Model.decorator';
+export * from './Type.decorator';
+export * from './Subschema.decorator';
+export * from './Default.decorator';
+export * from './Index.decorator';
+export * from './Populate.decorator';
+export * from './QueryHelper.decorator';
+export * from './SchemaOptions.decorator';
+export * from './Subschema.decorator';
