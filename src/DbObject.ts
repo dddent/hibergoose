@@ -6,11 +6,11 @@ import {
 } from './decorators';
 import { SchemaHelpers } from './decorators/SchemaHelpers';
 
-type Doc<T> = T & mongoose.Document;
+import { hibergoose } from './Types';
 
 export class DbObject<T> {
-  public get model(): mongoose.Model<Doc<T>> {
-    return mongoose.model<Doc<T>>('name');
+  public get model(): mongoose.Model<hibergoose.Document<T>> {
+    return mongoose.model<hibergoose.Document<T>>('name');
   }
 
   public get schema(): mongoose.Schema {
