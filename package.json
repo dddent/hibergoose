@@ -1,0 +1,35 @@
+{
+  "name": "hibergoose",
+  "version": "1.0.0",
+  "description": "a typescript wrapper for mongoose",
+  "main": "dest/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dddent/hibergoose.git"
+  },
+  "keywords": [
+    "mongoose",
+    "mongodb",
+    "database"
+  ],
+  "author": "David Heuschmann (heuschmann.d@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dddent/hibergoose/issues"
+  },
+  "homepage": "https://github.com/dddent/hibergoose#readme",
+  "peerDependencies": {
+    "mongoose": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^4.6.2",
+    "typescript": "^2.0.10"
+  },
+  "dependencies": {
+    "@types/node": "0.0.0",
+    "reflect-metadata": "^0.1.8"
+  }
+}
