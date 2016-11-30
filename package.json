@@ -1,6 +1,6 @@
 {
   "name": "hibergoose",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "a typescript wrapper for mongoose",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
