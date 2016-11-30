@@ -28,10 +28,10 @@
   },
   "devDependencies": {
     "@types/mongoose": "^4.6.2",
-    "typescript": "^2.0.10"
+    "typescript": "^2.0.10",
+    "@types/node": "0.0.0"
   },
   "dependencies": {
-    "@types/node": "0.0.0",
     "reflect-metadata": "^0.1.8"
   }
 }
