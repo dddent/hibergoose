@@ -17,7 +17,7 @@
     "mongodb",
     "database"
   ],
-  "author": "David Heuschmann (heuschmann.d@gmail.com)",
+  "author": "David Heuschmann <heuschmann.d@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dddent/hibergoose/issues"
